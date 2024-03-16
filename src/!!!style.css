@@ -332,28 +332,28 @@ body {
 }
 
 /* footer */
-.footer {
+/* .footer {
   display: flex;
   width: 990px;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
   color: #fff;
-}
+} */
 
-.footer__copyright {
+/* .footer__copyright {
   width: 300px;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   opacity: 0.8;
-}
+} */
 
-.button__wrap {
+/* .button__wrap {
   display: flex;
   gap: 16px;
-}
-.buttons {
+} */
+/* .buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,10 +371,10 @@ body {
 
 .buttons:hover {
   background: rgba(255, 255, 255, 0.2);
-}
+} */
 
-.footer__icon {
+/* .footer__icon {
   width: 16px;
   height: 16px;
   margin-right: 8px;
-}
+} */
