@@ -1,0 +1,1 @@
+export { CardLeft } from "./CardLeft";

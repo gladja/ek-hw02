@@ -1,11 +1,12 @@
 // import "./App.css";
+import { Card } from "./Card";
 import { Container } from "./Container/Container";
 
 function App() {
   return (
     <>
       <Container>
-        <h1 className="text-6xl font-bold text-green-600">Star!</h1>
+        <Card />
       </Container>
     </>
   );
