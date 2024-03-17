@@ -33,18 +33,18 @@ body {
   /* z-index: -2; */
 }
 
-.card__header,
+/* .card__header,
 .card__body {
   width: 50%;
   padding: 42px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
-.card__header {
+/* .card__header {
   background: #f3f4f6;
-}
+} */
 
 .card .short-logo {
   margin-bottom: 32px;
@@ -166,36 +166,36 @@ body {
 
 /* card */
 
-.card__wrap {
+/* .card__wrap {
   background: linear-gradient(92.12deg, #57b5f9 0%, #da11ba 100%);
   height: 230px;
   width: 100%;
   border-radius: 24px;
   margin-bottom: 32px;
-}
+} */
 
-.card__wrap-border {
+/* .card__wrap-border {
   padding: 24px;
   margin: 0.7% auto 0;
   background-color: #fff;
   height: 97.5%;
   width: 98.5%;
   border-radius: 22px;
-}
+} */
 
-.card__title {
+/* .card__title {
   font-size: 14px;
   font-weight: 600;
   text-align: center;
-}
+} */
 
-.card__img {
+/* .card__img {
   width: 16px;
   margin-left: 0.5em;
   margin-bottom: -3px;
-}
+} */
 
-.card__value {
+/* .card__value {
   font-weight: 700;
   font-size: 48px;
   text-align: center;
@@ -203,7 +203,7 @@ body {
   position: relative;
 
   color: grey;
-}
+} */
 
 .card__value-sum:focus-visible {
   outline: none;
@@ -234,12 +234,12 @@ body {
   color: #b30953;
 }
 
-.card__btn {
+/* .card__btn {
   display: flex;
   gap: 16px;
-}
+} */
 
-.btn__value {
+/* .btn__value {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,10 +254,10 @@ body {
 
 .btn__value:hover {
   background: #e6e6e6;
-}
+} */
 
 /* input */
-.card__input-value {
+/* .card__input-value {
   font-size: 16px;
   width: 340px;
   margin-left: auto;
@@ -285,10 +285,10 @@ body {
 
 .card__input-value:focus-visible {
   outline: 2px solid black;
-}
+} */
 
 /* button */
-.btn__pay {
+/* .btn__pay {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,16 +304,16 @@ body {
 
 .btn__pay:hover {
   background: #3c4034;
-}
+} */
 
 /* pay cadr */
-.other__pay {
+/* .other__pay {
   width: 340px;
   margin-top: 10px;
   border-top: 0.5px solid #ccc;
-}
+} */
 
-.other__pay-button {
+/* .other__pay-button {
   display: flex;
   justify-content: center;
   padding: 16px 0;
@@ -329,7 +329,7 @@ body {
 
 .other__pay-text {
   color: red;
-}
+} */
 
 /* footer */
 /* .footer {
