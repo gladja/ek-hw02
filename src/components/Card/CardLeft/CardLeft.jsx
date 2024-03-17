@@ -1,4 +1,11 @@
-export const CardLeft = () => {
+import { useEffect, useState } from "react";
+import { changeImg } from "../../../helpers/changeImg";
+
+export const CardLeft = ({ value }) => {
+  const [img, setImg] = useState("");
+  useEffect(() => {
+    setImg(changeImg(value));
+  }, [value]);
   return (
     <>
       <div className="w-1/2 p-10 flex flex-col items-center bg-slate-100">
@@ -13,11 +20,8 @@ export const CardLeft = () => {
             src="https://send.monobank.ua/img/jar_bg.png"
             width={215}
           />
-          <img
-            className="absolute top-2 left-8"
-            src="https://send.monobank.ua/img/jar/0.png"
-            width={155}
-          />
+          {}
+          <img className="absolute top-2 left-8" src={img} width={155} />
           <div className="absolute top-8 left-12">
             <img
               className="grig"
@@ -59,7 +63,7 @@ export const CardLeft = () => {
                 Накопичено
               </div>
               <div className="text-4 font-medium">
-                <span>0</span>&nbsp;₴
+                <span>{value.toLocaleString("ru-RU")}</span>&nbsp;₴
               </div>
             </div>
           </div>
