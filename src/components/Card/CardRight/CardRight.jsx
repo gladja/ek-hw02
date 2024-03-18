@@ -46,7 +46,7 @@ export const CardRight = ({ value, setValue }) => {
             <div
               className={`text-5xl font-bold text-center py-8 relative 
               ${count === 0 && "text-gray-400"}
-              ${validateColor(count) ? "text-red-400" : "text-black-400"} `}
+              ${validateColor(count) ? "text-red-300" : "text-black-400"} `}
             >
               <span
                 className="focus:outline-none"
